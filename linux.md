@@ -1,0 +1,1 @@
+find /opt/soft/log/ -mtime +30 -name "*.log" | xargs -rm -rf
